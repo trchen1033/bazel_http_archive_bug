@@ -1,0 +1,4 @@
+cc_binary(
+	name = "greeting",
+	deps = ["//external:hello"],
+)
